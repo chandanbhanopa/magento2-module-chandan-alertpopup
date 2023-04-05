@@ -1,0 +1,17 @@
+{
+    "name": "chandanbhanopa/magento2-module-chandan-alertpopup",
+    "description": "Show your alert messages in popup box.",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "version": "1.0.0.0",
+    "minimum-stability":"dev",
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Chandan\\AlertPopup\\": ""
+        }
+    }
+}
